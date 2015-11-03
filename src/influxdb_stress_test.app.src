@@ -1,0 +1,18 @@
+{application, 'influxdb_stress_test',
+ [{description, "A tool to generate and emit metrics for testing purposes."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'influxdb_stress_test_app', []}},
+  {applications,
+   [kernel,
+    stdlib,
+    exometer_influxdb,
+    exometer_core
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
